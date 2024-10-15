@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1680</width>
+    <height>1050</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>241</width>
+      <height>1021</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #6c72a5;</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>24</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #ffffff;
+margin-left: 5px</string>
+     </property>
+     <property name="text">
+      <string>Menu</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pageTeks">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>241</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: transparent;
+    color: #ffffff; /* Atur warna teks */
+	text-align: left;
+	margin-left: 15px;
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Ubah opacity saat tombol dihover */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.5); /* Ubah opacity saat tombol ditekan */
+}</string>
+     </property>
+     <property name="text">
+      <string>Analisis Teks</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pageData">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>200</y>
+       <width>241</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: transparent;
+    color: #ffffff; /* Atur warna teks */
+	text-align: left;
+	margin-left: 15px;
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Ubah opacity saat tombol dihover */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.5); /* Ubah opacity saat tombol ditekan */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Analisis Dataset</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="icon_menu">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>30</y>
+       <width>61</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>icon/menu.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="icon_teks">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>120</y>
+       <width>51</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>28</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #ffffff;
+</string>
+     </property>
+     <property name="text">
+      <string>&lt;&gt;</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="icon_data">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>200</y>
+       <width>51</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>icon/data.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pagePenelitian">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>280</y>
+       <width>241</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: transparent;
+    color: #ffffff; /* Atur warna teks */
+	text-align: left;
+	margin-left: 15px;
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Ubah opacity saat tombol dihover */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.5); /* Ubah opacity saat tombol ditekan */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Hasil Penelitian</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>290</y>
+       <width>51</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>icon/research.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <zorder>label</zorder>
+    <zorder>icon_menu</zorder>
+    <zorder>icon_teks</zorder>
+    <zorder>icon_data</zorder>
+    <zorder>label_2</zorder>
+    <zorder>pageTeks</zorder>
+    <zorder>pageData</zorder>
+    <zorder>pagePenelitian</zorder>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>0</y>
+      <width>1441</width>
+      <height>1021</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #2C2F48;
+</string>
+    </property>
+    <widget class="QStackedWidget" name="Stacked1">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>60</y>
+       <width>1401</width>
+       <height>921</height>
+      </rect>
+     </property>
+     <widget class="QWidget" name="page">
+      <widget class="QLabel" name="title">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>471</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #ffffff;
+</string>
+       </property>
+       <property name="text">
+        <string>Analisis Sentimen menggunakan Lexicon-based</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="hasil_analisis">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>310</y>
+         <width>1341</width>
+         <height>261</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"> background-color: #ffffff; /* Atur latar belakang menjadi putih */
+ border: 1px solid #ffffff; /* Atur border dengan tebal 2px dan warna putih */
+ border-radius: 10px; /* Atur radius border sesuai kebutuhan */
+ color: #000000; /* Atur warna teks */</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_hasil">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>250</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: transparent;
+    border: 2px solid #ffffff; /* Atur tebal border sesuai kebutuhan */
+    border-radius: 10px; /* Atur radius border sesuai kebutuhan */
+    color: #ffffff; /* Atur warna teks */
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Ubah opacity saat tombol dihover */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.5); /* Ubah opacity saat tombol ditekan */
+}</string>
+       </property>
+       <property name="text">
+        <string>Analisis</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="inputText">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>50</y>
+         <width>1341</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QTextEdit {
+    background-color: #ffffff; /* Atur latar belakang menjadi putih */
+    border: 2px solid #ffffff; /* Atur border dengan tebal 2px dan warna hitam */
+    border-radius: 10px; /* Atur radius border sesuai kebutuhan */
+    color: #000000; /* Atur warna teks */
+}
+</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="scrollkamus">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>510</y>
+         <width>1341</width>
+         <height>401</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QTextEdit {
+    background-color: #ffffff; /* Atur latar belakang menjadi putih */
+    border: 2px solid #ffffff; /* Atur border dengan tebal 2px dan warna hitam */
+    border-radius: 10px; /* Atur radius border sesuai kebutuhan */
+    color: #000000; /* Atur warna teks */
+}
+</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <widget class="QPushButton" name="btn_inp">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>850</y>
+         <width>1381</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: transparent;
+    border: 2px solid #ffffff; /* Atur tebal border sesuai kebutuhan */
+    border-radius: 10px; /* Atur radius border sesuai kebutuhan */
+    color: #ffffff; /* Atur warna teks */
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Ubah opacity saat tombol dihover */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.5); /* Ubah opacity saat tombol ditekan */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Input Data</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>25</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #ffffff;</string>
+       </property>
+       <property name="text">
+        <string>Hasil analisa</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="hasil_analisaData">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>1371</width>
+         <height>281</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">    background-color: #ffffff; /* Atur latar belakang menjadi putih */
+    border: 2px solid #ffffff; /* Atur border dengan tebal 2px dan warna hitam */
+    border-radius: 10px; /* Atur radius border sesuai kebutuhan */
+    color: #000000; /* Atur warna teks */</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="wordcloud_widget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>750</x>
+         <y>380</y>
+         <width>461</width>
+         <height>371</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">    background-color: #ffffff; /* Atur latar belakang menjadi putih */
+    border: 2px solid #ffffff; /* Atur border dengan tebal 2px dan warna hitam */
+    border-radius: 10px; /* Atur radius border sesuai kebutuhan */
+    color: #000000; /* Atur warna teks */</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="plot_widget">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>380</y>
+         <width>461</width>
+         <height>371</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">    background-color: #ffffff; /* Atur latar belakang menjadi putih */
+    border: 2px solid #ffffff; /* Atur border dengan tebal 2px dan warna hitam */
+    border-radius: 10px; /* Atur radius border sesuai kebutuhan */
+    color: #000000; /* Atur warna teks */</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_3">
+      <widget class="QPushButton" name="btn_akurasi">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1381</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    background-color: transparent;
+    border: 2px solid #ffffff; /* Atur tebal border sesuai kebutuhan */
+    border-radius: 10px; /* Atur radius border sesuai kebutuhan */
+    color: #ffffff; /* Atur warna teks */
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Ubah opacity saat tombol dihover */
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 0.5); /* Ubah opacity saat tombol ditekan */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Masukkan dataset penelitian</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="hasilAkurasi">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>320</y>
+         <width>1381</width>
+         <height>231</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QTextEdit {
+    background-color: #ffffff; /* Atur latar belakang menjadi putih */
+    border: 2px solid #ffffff; /* Atur border dengan tebal 2px dan warna hitam */
+    border-radius: 10px; /* Atur radius border sesuai kebutuhan */
+    color: #000000; /* Atur warna teks */
+}
+</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="hasil_persen">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>1381</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #ffffff;
+border: 2px solid #ffffff; /* Atur border dengan tebal 2px dan warna hitam */
+    border-radius: 10px; /* Atur radius border sesuai kebutuhan */</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1680</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="icon/resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
